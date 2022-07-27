@@ -1,0 +1,142 @@
+
+/*hero section*/
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(images/walpaper2\ \(1\).jpg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+  
+  
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    border-color: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    margin-bottom: 150px;
+
+}
+
+/*nav section*/
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: red;
+
+}
+
+.kelv{
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+
+.kelv h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span{
+    color: black;
+    font-weight: bolder;
+}
+
+.kelv p{
+    color: white;
+    font-size: larger;
+    line-height: 22px;
+
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    bottom: 0%;
+    right: 100px;
+    position: absolute;
+
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+
+/*services section*/
+
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgb(49, 51, 50);
+    
+    
+}
+.headings{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.row{
+    display: flex;
+
+}
+
+.head{
+    color: aliceblue;
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 10px;
+    align-items: baseline;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: brown;
+    text-decoration: white;
+
+}
+.box p{
+    color: aliceblue;
+}
+.footer{
+    background-image: url(images/wallpaper1.jpg);
+    
+}
